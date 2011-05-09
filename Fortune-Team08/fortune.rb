@@ -8,3 +8,5 @@ class Fortune < Sinatra::Base
 		haml :fortune
 	end
 end
+
+require 'fortunedata'
